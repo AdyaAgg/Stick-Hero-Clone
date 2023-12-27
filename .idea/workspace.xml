@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ebc9e5f-fcf3-46ab-8cf0-2f55572ebe17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Animations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/GameMusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/SceneControllerGameOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/SceneControllerLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/SceneControllerOpening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/SceneControllerPlaying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/'.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Loading.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/NEWGameOver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/NEWTimeToWakeUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/NEWhome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/NEWrestart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/NEWrevive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/StickHeroBig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/antique_cherry/Antique-Cherry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/antique_cherry/License Request.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/antique_cherry/antique_cherry.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/bonus.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/click.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/closeYourEyes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/coin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/gabriel_weiss_friends/GABRWFFR.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/gabriel_weiss_friends/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/gameOver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/hero3.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/heroHair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/loaded.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/loading.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/loadingScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/myHeroMoving.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/over.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/stickHero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/whoosh.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/test/java/com/example/stickhero/CherryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StickHero/src/test/java/com/example/stickhero/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Banana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Cherry.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Cherry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/GameObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/GameObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/MainGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/MoveBackground.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/MuteGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/MuteGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Stick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Game Over.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Game Over.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Opening Screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Opening Screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Playing.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/Playing.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StickHero/src/main/resources/com/example/stickhero/hello-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/StickHero" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YjRuhftuJsrVm4qfG0z9nIE6ca" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Adya A/Desktop/Winter 23/Stick_Hero_Clone/StickHero/src/main/resources/com/example/stickhero",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.stickhero" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adya A\Desktop\Winter 23\Stick_Hero_Clone\StickHero\src\main\resources\com\example\stickhero" />
+      <recent name="C:\Users\Adya A\Desktop\Winter 23\Stick_Hero_Clone\StickHero\target\classes\com\example\stickhero\antique_cherry" />
+      <recent name="C:\Users\Adya A\Downloads\Java_Project\StickHero\src\main\resources\com\example\stickhero" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adya A\Desktop\Winter 23\Stick_Hero_Clone\StickHero\src" />
+      <recent name="C:\Users\Adya A\Desktop\Winter 23\Stick_Hero_Clone\StickHero\src\main\resources\com\example\stickhero" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.stickhero" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.stickhero.Game" />
+      <module name="StickHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stickhero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CherryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StickHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stickhero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.stickhero" />
+      <option name="MAIN_CLASS_NAME" value="com.example.stickhero.CherryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameMusicPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StickHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stickhero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.stickhero" />
+      <option name="MAIN_CLASS_NAME" value="com.example.stickhero.GameMusicPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StickHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stickhero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.stickhero" />
+      <option name="MAIN_CLASS_NAME" value="com.example.stickhero.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SceneControllerTest.testInitialization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StickHero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stickhero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.stickhero" />
+      <option name="MAIN_CLASS_NAME" value="com.example.stickhero.SceneControllerTest" />
+      <option name="METHOD_NAME" value="testInitialization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+        <item itemvalue="JUnit.SceneControllerTest.testInitialization" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.GameMusicPlayerTest" />
+        <item itemvalue="JUnit.CherryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ebc9e5f-fcf3-46ab-8cf0-2f55572ebe17" name="Changes" comment="" />
+      <created>1701037226834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701037226834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StickHero/src/main/java/com/example/stickhero/Stick.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

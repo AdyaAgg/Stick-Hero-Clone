@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.SceneControllerGameOver">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="496.0" fitWidth="627.0" layoutX="-19.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gameOver.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="scoreLabelFinal" alignment="CENTER" contentDisplay="CENTER" layoutX="47.0" layoutY="195.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Mistral" size="62.0" />
+         </font>
+      </Label>
+      <Label fx:id="highscoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="194.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Mistral" size="61.0" />
+         </font>
+      </Label>
+      <Label fx:id="cherryCountFinalLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="194.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Mistral" size="61.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="21.0" fitWidth="263.0" layoutX="26.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gameOverText.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="273.0" layoutX="22.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@timetowakeup.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="19.0" fitWidth="81.0" layoutX="29.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@restart_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="21.0" fitWidth="73.0" layoutX="120.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@revive_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="19.0" fitWidth="69.0" layoutX="192.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="58.0" layoutX="32.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@best.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="81.0" layoutX="102.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@score.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="homeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="342.0" mnemonicParsing="false" onAction="#toHome" opacity="0.0" style="-fx-background-color: whinonete;" text="Home" textFill="#d14f7c">
+         <font>
+            <Font name="Gabriel Weiss' Friends Font" size="17.0" />
+         </font></Button>
+      <Button fx:id="reviveButton" alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="342.0" mnemonicParsing="false" onAction="#revivePlayer" opacity="0.0" style="-fx-background-color: whinonete;" text="Revive" textFill="#d14f7c">
+         <font>
+            <Font name="Gabriel Weiss' Friends Font" size="17.0" />
+         </font></Button>
+      <Button fx:id="restartButton" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="342.0" mnemonicParsing="false" onAction="#newGame" opacity="0.0" style="-fx-background-color: whinonete;" text="Restart" textFill="#d14f7c">
+         <font>
+            <Font name="Gabriel Weiss' Friends Font" size="17.0" />
+         </font></Button>
+      <ImageView fitHeight="26.0" fitWidth="81.0" layoutX="180.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coins.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cherriesTooFew" fitHeight="150.0" fitWidth="200.0" layoutX="27.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@need2coinsforsurvival.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

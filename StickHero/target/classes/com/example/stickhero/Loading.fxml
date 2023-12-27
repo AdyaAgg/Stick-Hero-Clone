@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.SceneControllerLoading">
+   <children>
+      <ImageView fitHeight="504.0" fitWidth="672.0" layoutX="-69.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@loadingScreen.png" />
+         </image>
+      </ImageView>
+      <Label id="loadingLabel" fx:id="heading" layoutX="53.0" layoutY="-31.0" opacity="0.0" prefHeight="102.0" prefWidth="478.0" style="-fx-font: Antique Cherry - Personal Use;" text="Stick Hero India" textFill="WHITE">
+         <font>
+            <Font name="Antique Cherry - Personal Use" size="93.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="34.0" layoutX="67.0" layoutY="299.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" style="-fx-arc-height: 50; -fx-arc-width: 25;" width="478.0" />
+      <Rectangle fx:id="loadingRectangle" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="22.0" layoutX="73.0" layoutY="305.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="2.0" style="-fx-arc-height: 25; -fx-arc-width: 15;" width="465.0" />
+      <Label id="loadingLabel" fx:id="loadingLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="109.0" prefHeight="94.0" prefWidth="478.0" text="0%" textAlignment="CENTER" textFill="#1e1e1e">
+         <font>
+            <Font name="Mistral" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="186.0" fitWidth="525.0" layoutX="61.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@StickHeroBig.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="400.0" layoutX="105.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@closeYourEyes.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="messageLabel" fitHeight="34.0" fitWidth="252.0" layoutX="198.0" layoutY="349.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pressSpace.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

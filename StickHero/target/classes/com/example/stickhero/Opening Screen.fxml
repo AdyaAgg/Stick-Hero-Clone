@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorpane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.SceneControllerOpening">
+   <children>
+      <ImageView fx:id="backgroundImageView" fitHeight="411.0" fitWidth="1260.0" layoutX="-72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="heroImageView" fitHeight="38.0" fitWidth="38.0" layoutX="281.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@myHero.png" />
+         </image>
+      </ImageView>
+      <Rectangle height="131.0" layoutX="249.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="110.0">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.06439393939393938" radius="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.15789473056793213" green="0.15789473056793213" blue="0.15789473056793213" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.010526316240429878" green="0.010526316240429878" blue="0.010526316240429878" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill></Rectangle>
+      <ImageView fitHeight="95.0" fitWidth="600.0" layoutX="28.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BeginYourJourney.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="422.0" layoutX="127.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newGame_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="443.0" layoutX="319.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resume.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="playButton" layoutX="122.0" layoutY="107.0" mnemonicParsing="false" onAction="#newGame" opacity="0.0" style="-fx-background-color: none;" text="New GAME" textFill="WHITE">
+         <font>
+            <Font name="Gabriel Weiss' Friends Font" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="resumeGame" alignment="CENTER" contentDisplay="CENTER" layoutX="317.0" layoutY="107.0" mnemonicParsing="false" onAction="#loadGame" opacity="0.0" style="-fx-background-color: none;" text="RESUME gAME" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Gabriel Weiss' Friends Font" size="19.0" />
+         </font></Button>
+      <ImageView fitHeight="37.0" fitWidth="299.0" layoutX="380.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@madewithlove.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
